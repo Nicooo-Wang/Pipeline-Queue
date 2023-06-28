@@ -23,26 +23,4 @@ public:
     virtual ~BaseThreadTaskClass();
 };
 
-class Producer : public BaseThreadTaskClass
-{
-private:
-protected:
-    void RunningOnOtherThread() override;
-
-public:
-    Producer();
-    ~Producer() override;
-};
-
-class Consumer : public BaseThreadTaskClass
-{
-private:
-protected:
-    void RunningOnOtherThread() override;
-
-public:
-    Consumer();
-    ~Consumer();
-};
-
 #endif //__THREAD_CLASS_TEMPLATE__
