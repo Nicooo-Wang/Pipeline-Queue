@@ -9,7 +9,7 @@ The main goal of this model is to achieve coordination and synchronization betwe
 
 The producer-consumer model is widely used in various scenarios, such as handling website requests, rendering UI interfaces in Android systems (Buffer Queue), etc. It can help achieve asynchronous execution of tasks and improve system throughput and efficiency. Through the producer-consumer model, request coordination and synchronization can be achieved, increasing system throughput and efficiency.
 
-
+The purpose of this project is to implement a single producer-single consumer Pipeline template using object-oriented design, and encapsulate the complex operations within the Pipeline.
 # Project Outline
 This project is divided into 3 sub-projects, progressively completing a C++ object-oriented producer-consumer Pipeline project.
 
